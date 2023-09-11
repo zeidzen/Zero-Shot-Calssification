@@ -43,7 +43,7 @@ The Python microservice is a versatile tool for text classification using BERT-b
 
 <br>
 
-![image](https://github.com/zeidzen/Zero-Shot-Calssification/assets/36964163/a2b673d4-140f-4dc3-b6e4-d8c5f6cd028f)
+![image](https://github.com/zeidzen/Zero-Shot-Calssification/assets/36964163/2120f9c9-a8a8-47a2-9f8d-7047daa6efc0)
 
 
 ## Model Breif and Zero-Short-Classification approach used
