@@ -20,11 +20,11 @@ Zero-shot text classification is a type of machine learning approach that allows
 6. Create environment: 
    **poetry shell**
 
-7. Activate the environment 
+7. I the environment is not activated, Activate the environment by  
    - Windows: **.\zero-shot-env-dYV_COdE-py3.11\Scripts\activate**
    - Linux: **source zero-shot-env-dYV_COdE-py3.11/bin/activate**
-
-8. Run the project:
+8. For install dependencies: **poetry install**
+9. . Run the project:
    **uvicorn bert_api:app --reload**
 
 # How to use web service using Poetry and FastAPI
