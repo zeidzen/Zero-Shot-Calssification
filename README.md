@@ -1,6 +1,7 @@
 # **Zero Shot Text Classification**
 
 ## Inroduction 
+
 This project will create a Python-based zero-shot text classification RESTful web service using FastAPI and Poetry. The web service will leverage the BERT-based pre-trained models available in the Hugging Face's transformers library.
 
 Zero-shot text classification is a type of machine learning approach that allows a model to recognize and classify new classes based on zero-labeled examples of these classes. This is done by using a pre-trained model that has been trained on a large dataset of text and labels.
@@ -9,7 +10,8 @@ Zero-shot text classification is a type of machine learning approach that allows
 
 
 ## Overview of Microservices 
-The Python microservice is a versatile tool for text classification using BERT-based models. It can efficiently categorize input text into predefined classes or labels. With support for both single sentences and batches of sentences, it offers flexibility for a wide range of text classification tasks. The microservice's core functionality includes tokenization, prediction, and probability scoring, making it a valuable asset for enhancing natural language understanding and classific
+
+The Python microservice is a versatile tool for text classification using BERT-based models. It can efficiently categorize input text into predefined classes or labels. With support for both single sentences and batches of sentences, it offers flexibility for a wide range of text classification tasks. The microservice's core functionality includes tokenization, prediction, and probability scoring, making it a valuable asset for enhancing natural language understanding and classific.
 
 ![image](https://github.com/zeidzen/Zero-Shot-Calssification/assets/36964163/378c9be7-b323-49d9-aed4-998fbd26f920)
 
@@ -28,7 +30,7 @@ The Python microservice is a versatile tool for text classification using BERT-b
 6. Create environment: 
    **poetry shell**
 
-7. I the environment is not activated, Activate the environment by  
+7. If the environment is not activated, Activate the environment by  
    - Windows: **.\zero-shot-env-dYV_COdE-py3.11\Scripts\activate**
    - Linux: **source zero-shot-env-dYV_COdE-py3.11/bin/activate**
 8. For install dependencies: **poetry install**
