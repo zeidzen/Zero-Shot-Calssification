@@ -42,6 +42,7 @@ The Python microservice is a versatile tool for text classification using BERT-b
 In the provided links, you'll discover interactive and alternative API documentation. These resources present a comprehensive list of endpoints, along with detailed information on their respective input and output structures, including any associated constraints for making API calls.
 
 Interactive API docs: **localhost:8000/docs**
+
 Alternative API docs: **localhost:8000/redoc**
 
 
