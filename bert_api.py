@@ -4,7 +4,7 @@ from request_response_schema import ReqSentence, ReqSentences, ResSentence, ResS
 from typing import List
 
 description="""This project will create a Python-based zero-shot text classification RESTful web service using FastAPI and Poetry. The web service will leverage the BERT-based pre-trained models available in the Hugging Face's transformers library.""" 
-title='Zero Short Text Classification'
+title='Zero Shot Text Classification'
 app = FastAPI( title=title, description=description)
     
 @app.get("/")
