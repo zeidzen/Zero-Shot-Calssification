@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "zero-shot-env"
+version = "1.0.0"
+description = "This project will create a Python-based zero-shot text classification RESTful web service using FastAPI and Poetry. The web service will leverage the BERT-based pretrained models available in the Hugging Face's transformers library.Zero-shot text classification is a type of machine learning approach that allows a model to recognize and classify new classes based on zero labeled examples of these classes. This is done by using a pretrained model that has been trained on a large dataset of text and labels."
+authors = ["Mohammad Alawamleh"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.23.2"
+fastapi = "^0.103.1"
+torch = "^2.0.1"
+transformers = "^4.33.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

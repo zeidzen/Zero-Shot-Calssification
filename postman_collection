@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "463ae931-b756-4410-9a36-176973906d3d",
+		"name": "zero shot text classification",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9601208"
+	},
+	"item": [
+		{
+			"name": "classify multi sentences",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sentences\": [\r\n        \"Hello Jordan, How are you doing?\",\r\n        \"I am good\"\r\n    ],\r\n    \"candidate_labels\": [\r\n        \"Negative\",\r\n        \"Positive\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://0.0.0.0:8000/classify_multi_sentences/",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"classify_multi_sentences",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "classify single sentence",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sentence\": \"Hello Jordan, How are you doing?\",\r\n    \"candidate_labels\": [\r\n        \"Negative\",\r\n        \"Positive\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://0.0.0.0:8000/classify_sentence/",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"classify_sentence",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hello Word",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000"
+				}
+			},
+			"response": []
+		}
+	]
+}
