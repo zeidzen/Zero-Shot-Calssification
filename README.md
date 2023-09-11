@@ -14,7 +14,7 @@ Zero-shot text classification is a type of machine learning approach that allows
 1. Git clone the repository
 2. Open the project in Visual Studio Code
 3. Open the Terminal 
-4. Install necessary Libraries: pip install poetry uvicorn
+4. Install necessary Libraries: - pip install poetry uvicorn
 5. Create environment: poetry shell
 6. Activate the environment 
    - Windows: .\zero-shot-env-dYV_COdE-py3.11\Scripts\activate
