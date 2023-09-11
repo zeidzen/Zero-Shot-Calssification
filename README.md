@@ -8,7 +8,13 @@ Zero-shot text classification is a type of machine learning approach that allows
 
 
 # How to Install and Run
+1- Git clone the repository
+2- Open the project in Visual Studio Code
+3- Open the Terminal 
+4- Run this command in your Terminal 
 
+    - pip install poetry
+    - 
 
 # How to use web service using Poetry and FastAPI
 
