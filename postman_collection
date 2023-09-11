@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"sentences\": [\r\n        \"Hello Jordan, How are you doing?\",\r\n        \"I am good\"\r\n    ],\r\n    \"candidate_labels\": [\r\n        \"Negative\",\r\n        \"Positive\"\r\n    ]\r\n}",
+					"raw": "{\r\n    \"sentences\": [\r\n        \"I do not like it\",\r\n        \"I am good\"\r\n    ],\r\n    \"candidate_labels\": [\r\n        \"Negative\",\r\n        \"Positive\"\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"

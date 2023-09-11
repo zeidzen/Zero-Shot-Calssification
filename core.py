@@ -2,7 +2,7 @@ import torch
 from transformers import BertTokenizer, BertForSequenceClassification, BertConfig
 import torch.nn.functional as F
 
-class SentimentAnalysis:
+class uncase_classification:
     
     def __init__(self, candidate_labels) -> None:
         
