@@ -62,14 +62,14 @@ Zero-shot classification is a machine learning task in which a model is trained 
 
 There are two main approaches to zero-shot classification:
 
-      - Attribute-based approaches: These approaches use the auxiliary information about the unseen classes to create a vector representation of each class. The model is then trained to predict the class of a new data point by comparing its vector representation to the vector representations of the known classes.
+   -Attribute-based approaches: These approaches use the auxiliary information about the unseen classes to create a vector representation of each class. The model is then trained to predict the class of a new data point by comparing its vector representation to the vector representations of the known classes.
 
-      -Embedding-based approaches: These approaches use the auxiliary information about the unseen classes to create an embedding space for the classes. The model is then trained to predict the class of a new data point by finding the class with the most similar embedding.
+   -Embedding-based approaches: These approaches use the auxiliary information about the unseen classes to create an embedding space for the classes. The model is then trained to predict the class of a new data point by finding the class with the most similar embedding.
 
       
 The zero-shot classification approach is still a relatively new research area, but it has the potential to be used in a wide variety of applications, such as:
 
-   -Text classification: Classifying text documents of topics that the model has never seen before.
+   - Text classification: Classifying text documents of topics that the model has never seen before.
 
    -Speech recognition: Recognizing speech from speakers that the model has never heard before.
    -Machine translation: Translating text from languages that the model has never been trained on.
