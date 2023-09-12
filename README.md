@@ -17,6 +17,7 @@ The Python microservice is a versatile tool for text classification using BERT-b
 
 ## Machine Learning Model Brief
 
+BERT is a language model that has been trained on a massive amount of text data. This allows BERT to understand the meaning of words and their relationships to other words. BERT can be used to solve a variety of natural language processing tasks, such as question answering, text summarization, and machine translation.
 
 ## Requirements
 - Python version above 3.11.0
